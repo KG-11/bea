@@ -1,0 +1,23 @@
+@import "~/styles/colors";
+@import "~/styles/fonts";
+
+.description {
+  margin: 0;
+  font-family: $ff-primary;
+  color: $clr-primary;
+  font-weight: 100;
+  &.xsmall {
+    font-size: $fs-xsmall;
+  }
+  &.small {
+    font-size: $fs-small;
+  }
+  &.medium {
+    font-size: $fs-medium;
+    font-weight: 200;
+  }
+  &.large {
+    font-size: $fs-large;
+    font-weight: 400;
+  }
+}

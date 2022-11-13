@@ -1,0 +1,14 @@
+@import "~/styles/colors";
+@import "~/styles/fonts";
+
+.navbar {
+  font-family: $ff-primary;
+  // background-color: $clr-alternate;
+  font-size: $fs-medium;
+  width: 100%;
+  min-height: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}

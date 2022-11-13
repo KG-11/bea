@@ -1,0 +1,37 @@
+@font-face {
+  font-family: "Baskerville_Italic";
+  src: url("/fonts/1785-GLC-Baskerville-italic.woff");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Baskerville_Normal";
+  src: url("/fonts/1785-GLC-Baskerville-normal.woff");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "GaramondClassic_Regular";
+  src: url("/fonts/GaramondClassic-regular.woff");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "GaramondClassic_Heavy";
+  src: url("/fonts/GaramondClassic-heavy.woff");
+  font-display: swap;
+}
+
+$ff-brand: "GaramondClassic_Heavy" !important;
+$ff-primary: "GaramondClassic_Regular" !important;
+$ff-secondary: "Baskerville_Normal" !important;
+$ff-italic: "Baskerville_Italic" !important;
+
+$fs-xsmall: 12px;
+$fs-small: 16px;
+$fs-medium: 24px;
+$fs-large: 32px;
+$fs-xlarge: 64px;
+$fs-xxlarge: 80px;
+$fs-xxxlarge: 96px;
+$fs-brand: 144px;

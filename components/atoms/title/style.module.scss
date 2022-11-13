@@ -1,0 +1,32 @@
+@import "~/styles/colors";
+@import "~/styles/fonts";
+
+.title {
+  margin: 0;
+  font-family: $ff-brand;
+  color: $clr-primary;
+  &.brand {
+    font-size: $fs-brand;
+    @media screen and (max-width: 992px) {
+      font-size: $fs-xxxlarge;
+    }
+    @media screen and (max-width: 769px) {
+      font-size: $fs-xxlarge;
+    }
+    @media screen and (max-width: 561px) {
+      font-size: $fs-xlarge;
+    }
+  }
+  &.small {
+    font-size: $fs-small;
+    font-family: $ff-primary;
+  }
+  &.medium {
+    font-size: $fs-medium;
+    font-family: $ff-primary;
+  }
+  &.large {
+    font-size: $fs-large;
+    font-family: $ff-primary;
+  }
+}
